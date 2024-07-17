@@ -26,6 +26,7 @@
 body {
   font-family: var(--default-font);
 }
+
 .project-description h2 {
   font-family: var(--heading-font);
   font-size: 64px;
@@ -67,6 +68,28 @@ p {
 .contact-button {
   margin-top: 70px;
 }
+.about-section {
+  margin: 150px auto;
+}
+.about-content h1 {
+  color: black;
+  font-family: var(--heading-font);
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 64px;
+}
+.about-content h2 {
+  color: black;
+  font-family: var(--default-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.about-image {
+  margin-top: 20px;
+}
+
 .hero h1 {
   color: black;
   font-family: var(--heading-font);
@@ -99,6 +122,12 @@ p {
   padding: 120px 60px;
 }
 @media (max-width: 900px) {
+  .about-section {
+    margin: 15px auto 0;
+  }
+  .about-image img {
+    margin: 50px auto;
+  }
   .hero h1 {
     font-size: 60px;
     font-weight: 600;
