@@ -102,6 +102,9 @@ footer .github-button {
   padding: 18px 35px;
   text-decoration: none;
 }
+.about-image {
+  margin-top: 20px;
+}
 .button-branding:hover {
   color: rgb(9, 9, 122);
 }
@@ -153,9 +156,6 @@ footer .github-button {
   font-style: normal;
   font-size: 14px;
 }
-.about-image {
-  margin-top: 20px;
-}
 
 .hero h1 {
   color: black;
@@ -202,14 +202,20 @@ footer .github-button {
   footer .github-button p {
     font-size: 12px;
   }
+  .about-image img {
+    margin: 50px auto;
+  }
+  .container {
+    text-align: center;
+  }
   .content-container {
     margin: 15px auto 0;
   }
   .content-translation {
     margin-bottom: 190px;
   }
-  .about-image img {
-    margin: 50px auto;
+  .customize-button {
+    margin-bottom: 30px;
   }
   .hero h1 {
     font-size: 60px;
@@ -219,9 +225,7 @@ footer .github-button {
     font-size: 20px;
     font-weight: 700;
   }
-  .container {
-    text-align: center;
-  }
+
   .last-button {
     position: relative;
     top: 10px;
@@ -229,9 +233,7 @@ footer .github-button {
   .logo-small {
     max-height: 40px;
   }
-  .customize-button {
-    margin-bottom: 30px;
-  }
+
   .project-description {
     padding: 20px 15px;
   }
