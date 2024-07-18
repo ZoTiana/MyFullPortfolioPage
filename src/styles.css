@@ -75,7 +75,7 @@ p {
   color: black;
   font-family: var(--heading-font);
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 700;
   font-style: normal;
   font-size: 64px;
 }
@@ -85,6 +85,20 @@ p {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+}
+.content h3 {
+  color: black;
+  font-family: var(--default-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+}
+.content p {
+  color: #6c757d;
+  font-family: var(--default-font);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
 }
 .about-image {
   margin-top: 20px;
