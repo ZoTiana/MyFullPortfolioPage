@@ -26,17 +26,58 @@
 body {
   font-family: var(--default-font);
 }
+h4 {
+  font-size: 48px;
+}
+nav {
+  font-family: var(--default-font);
+}
 
-.project-description h2 {
-  font-family: var(--heading-font);
-  font-size: 64px;
-  font-weight: 600;
-  color: black;
+nav a {
+  color: #272142;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+a.active {
+  color: var(--secondary-color);
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 40px;
+  margin-left: 15px;
 }
 p {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
+}
+footer .contact-box {
+  background: rgb(236, 231, 231);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .email-link {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: rgb(236, 231, 231);
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--secondary-color);
 }
 .button-branding {
   cursor: pointer;
@@ -132,32 +173,19 @@ p {
   text-align: center;
   padding: 140px 20px;
 }
-.project-description {
-  padding: 120px 60px;
-}
-nav {
-  font-family: var(--default-font);
-}
-
-nav a {
-  color: #272142;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
-}
-nav a:hover,
-a.active {
-  color: var(--secondary-color);
-}
-nav li {
-  display: inline;
-  list-style-type: none;
-  line-height: 40px;
-  margin-left: 15px;
-}
 .logo {
   max-height: 40px;
 }
+.project-description h2 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: 600;
+  color: black;
+}
+.project-description {
+  padding: 120px 60px;
+}
+
 @media (max-width: 900px) {
   .content-container {
     margin: 15px auto 0;
