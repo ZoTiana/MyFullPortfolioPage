@@ -135,6 +135,28 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+nav {
+  font-family: var(--default-font);
+}
+nav a:hover,
+a.active {
+  color: var(--secondary-color);
+}
+
+nav a {
+  color: #272142;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.logo {
+  max-height: 40px;
+}
 @media (max-width: 900px) {
   .content-container {
     margin: 15px auto 0;
@@ -159,6 +181,9 @@ p {
   .last-button {
     position: relative;
     top: 10px;
+  }
+  .logo-small {
+    max-height: 40px;
   }
   .customize-button {
     margin-bottom: 30px;
