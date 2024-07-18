@@ -88,6 +88,9 @@ footer .social-links a:hover {
   color: white;
   background: var(--secondary-color);
 }
+footer .github-button {
+  margin-bottom: 40px;
+}
 .button-branding {
   cursor: pointer;
   background: var(--secondary-color);
@@ -197,7 +200,7 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   footer .github-button p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .content-container {
     margin: 15px auto 0;
