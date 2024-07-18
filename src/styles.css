@@ -26,8 +26,11 @@
 body {
   font-family: var(--default-font);
 }
-h4 {
-  font-size: 48px;
+footer .contact-box h4 {
+  color: black;
+  font-size: 50px;
+  font-family: var(--heading-font);
+  font-weight: 700;
 }
 nav {
   font-family: var(--default-font);
@@ -55,22 +58,27 @@ p {
   line-height: 30px;
 }
 footer .contact-box {
-  background: rgb(236, 231, 231);
+  background: var(--primary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
 footer .email-link {
   color: black;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--default-font);
   text-decoration: none;
 }
 footer .email-link:hover {
   color: var(--secondary-color);
 }
+footer .social-links {
+  margin: 75px auto;
+}
 footer .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
-  background: rgb(236, 231, 231);
+  background: var(--primary-color);
   padding: 10px 14px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
