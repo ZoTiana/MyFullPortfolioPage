@@ -139,6 +139,9 @@ p {
   .content-container {
     margin: 15px auto 0;
   }
+  .content-translation {
+    margin-bottom: 190px;
+  }
   .about-image img {
     margin: 50px auto;
   }
