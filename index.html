@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Zo Tiana is a Front-end developer based in Madagascar.Do you need a responsive web site, feel free to contact me"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,27 +41,37 @@
       src="https://kit.fontawesome.com/59af6e8e02.js"
       crossorigin="anonymous"
     ></script>
-    <title>My Portfolio Project - Zo Tiana</title>
+    <title>Front-end developer - Zo Tiana</title>
   </head>
   <body>
     <div class="container mt-4 mb-2">
       <nav class="d-flex justify-content-between">
-        <a href="index.html"
+        <a href="index.html" title="Homepage"
           ><img
             src="images/logo.png"
             class="logo d-none d-md-block"
-            alt="SheCodes logo" />
+            alt="Zo Tiana logo" />
           <img
             src="images/logo-small.jpg"
             class="logo-small d-block d-md-none"
-            alt="SheCodes logo"
+            alt="Zo Tiana logo"
         /></a>
 
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html" target="_blank">About</a></li>
-          <li><a href="work.html" target="_blank">Work</a></li>
-          <li><a href="contact.html" target="_blank">Contact</a></li>
+          <li><a href="index.html" class="active" title="Homepage">Home</a></li>
+          <li>
+            <a href="about.html" target="_blank" title="About Zo Tiana"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="work.html" target="_blank" title="Zo Tiana's work">Work</a>
+          </li>
+          <li>
+            <a href="contact.html" target="_blank" title="Contact Zo Tiana"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
@@ -67,7 +81,11 @@
       <h1>Zo Tiana</h1>
       <h2>Front-end developer based in Madagascar</h2>
       <div class="contact-button">
-        <a href="contact.html" class="button-branding" target="_blank"
+        <a
+          href="contact.html"
+          class="button-branding"
+          target="_blank"
+          title="Contact Zo Tiana"
           >Contact me</a
         >
       </div>
@@ -89,7 +107,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -103,7 +121,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -132,7 +150,7 @@
               large language ocean. A small river named Duden flows by
             </p>
             <div class="customize-button">
-              <a href="#" class="btn-branding-outline last-button"
+              <a href="work.html" class="btn-branding-outline last-button"
                 >Learn more</a
               >
             </div>
@@ -142,29 +160,50 @@
       <footer>
         <div class="contact-box mb-5 justify-content-between d-none d-lg-flex">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div class="mt-4">
-            <a href="contact.html" class="button-branding" target="_blank"
+            <a
+              href="contact.html"
+              class="button-branding"
+              target="_blank"
+              title="Contact Zo Tiana"
               >Contact me</a
             >
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a href="mailto:zotianaandriamifidy@gmail.com" class="email-link"
+          <a
+            href="mailto:zotianaandriamifidy@gmail.com"
+            class="email-link"
+            title="Email Zo Tiana"
             >zotianaandriamifidy@gmail.com</a
           >
         </div>
 
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/ZoTiana" target=""
+          <a
+            href="https://github.com/ZoTiana"
+            target="_blank"
+            title="Github profile"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.facebook.com/zotianaandriamifidy" target="_blank"
+          <a
+            href="https://www.facebook.com/zotianaandriamifidy"
+            target="_blank"
+            title="Facebook profile"
             ><i class="fa-brands fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-4">
+          👌 This project was coded SheCodes, and it is
+          <a
+            href="https://github.com/matthieua/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

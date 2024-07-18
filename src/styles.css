@@ -26,12 +26,7 @@
 body {
   font-family: var(--default-font);
 }
-footer .contact-box h4 {
-  color: black;
-  font-size: 50px;
-  font-family: var(--heading-font);
-  font-weight: 700;
-}
+
 nav {
   font-family: var(--default-font);
 }
@@ -56,6 +51,12 @@ p {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
+}
+footer .contact-box h3 {
+  color: black;
+  font-size: 50px;
+  font-family: var(--heading-font);
+  font-weight: 700;
 }
 footer .contact-box {
   background: var(--primary-color);
@@ -118,7 +119,7 @@ footer .social-links a:hover {
   margin-top: 70px;
 }
 .content-container {
-  margin: 150px auto;
+  margin: 70px auto;
 }
 .content h1 {
   color: black;
@@ -179,7 +180,7 @@ footer .social-links a:hover {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 140px 20px;
+  padding: 80px 20px;
 }
 .logo {
   max-height: 40px;
