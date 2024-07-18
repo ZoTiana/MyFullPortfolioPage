@@ -196,6 +196,9 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
+  footer .github-button p {
+    font-size: 15px;
+  }
   .content-container {
     margin: 15px auto 0;
   }
